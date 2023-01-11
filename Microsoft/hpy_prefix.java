@@ -1,3 +1,4 @@
+package Microsoft;
 import java.util.*;
 public class hpy_prefix {
     public static String longestPrefix(String str) {

@@ -1,3 +1,4 @@
+package Microsoft;
 import java.util.*;
 public class aeroplane {
     public static double nthseat(int n) {

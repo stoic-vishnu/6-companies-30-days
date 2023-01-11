@@ -1,3 +1,4 @@
+package Microsoft;
 import java.util.*;
 public class no_substring_contin {
         public static int numberOfSubstrings(String s) {
@@ -19,4 +20,4 @@ public class no_substring_contin {
         System.out.println(numberOfSubstrings(str));
     }
     }
-}
+

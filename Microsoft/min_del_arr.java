@@ -1,3 +1,4 @@
+package Microsoft;
 import java.util.*;
 public class min_del_arr {
     public static int gcd(int c, int d) {

@@ -1,3 +1,4 @@
+package Microsoft;
 import java.util.*;
 public class bulls_cow {
     public static String secr_gues(String s, String g) {
