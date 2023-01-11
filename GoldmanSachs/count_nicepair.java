@@ -8,7 +8,7 @@ public class count_nicepair {
             rev = rev * 10 + rem;
             s = s / 10;
         }
-        // System.out.println(rev);
+        // System.out.print("Reverse :"+rev);
         return rev;
     }
 
@@ -30,7 +30,7 @@ public class count_nicepair {
 
     public static void main(String[] args) {
         int[] arr = { 13, 10, 35, 24, 76 };
-        System.out.print(countNicePairs(arr)+" ");
+        System.out.print(countNicePairs(arr));
 
     }
 }
