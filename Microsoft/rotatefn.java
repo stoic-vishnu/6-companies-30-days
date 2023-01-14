@@ -3,18 +3,14 @@ import java.util.*;
 public class rotatefn {
     public static int rotatefunct(int[] nums) {
         int max = 0, ans = 0, sum = 0;
-        int h = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             ans += nums[i] * i;
         }
-        for (int j = nums.length - 1; j > 0; j--) {
-            // max = formula(ans, sum, nums.length, nums[j]);
-            int m = 0;
-            m = ans + sum - nums.length * nums[j];
-            max = Math.max(max, m);
-            ans = m;
-            // return max;
+        max=ans;
+        for (int j = nums.length-1; j >= 0; j--) {
+            ans+=sum - (nums.length * nums[j]);
+            max=Math.max(max,ans);
 
         }
         System.out.println(max);
