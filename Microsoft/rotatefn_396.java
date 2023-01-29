@@ -1,6 +1,6 @@
 package Microsoft;
 import java.util.*;
-public class rotatefn {
+public class rotatefn_396 {
     public static int rotatefunct(int[] nums) {
         int max = 0, ans = 0, sum = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -11,7 +11,6 @@ public class rotatefn {
         for (int j = nums.length-1; j >= 0; j--) {
             ans+=sum - (nums.length * nums[j]);
             max=Math.max(max,ans);
-
         }
         System.out.println(max);
         return max;
