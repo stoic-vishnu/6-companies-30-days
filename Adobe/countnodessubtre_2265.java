@@ -2,11 +2,10 @@ package Adobe;
 import java.util.*;
 
 import GoldmanSachs.TreeNode;
+public class countnodessubtre_2265 {
+    private static int count = 0;
 
-public class avgsubtre_2265 {
-    private int count = 0;
-
-    public int[] subtree_order(TreeNode root) {
+    public static int[] subtree_order(TreeNode root) {
         if (root == null) {
             // total sum , total node
             return new int[] { 0, 0 };
@@ -21,7 +20,7 @@ public class avgsubtre_2265 {
         return new int[] { totalsum, totalnode };
     }
 
-    public int averageOfSubtree(TreeNode root) {
+    public static int averageOfSubtree(TreeNode root) {
         if (root == null) {
             return count;
         }
@@ -30,5 +29,10 @@ public class avgsubtre_2265 {
     }
     public static void main(String[] args) {
         int[] root = {4,8,5,0,1,(Integer) null,6};
+       System.out.println(averageOfSubtree(root));
+    }
+
+    private static char[] averageOfSubtree(int[] root) {
+        return null;
     }
 }
