@@ -1,4 +1,4 @@
-package Adobe;
+package GoldmanSachs;
 import java.util.*;
 //Time complxity o(n) runs in 3ms.
 public class nopplsecret_2327 {
