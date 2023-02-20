@@ -19,7 +19,7 @@ public class topKfreq_692 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String[] words = {"i","love","leetcode","i","love","coding"};
-        int k = sc.nextInt();
+        int k = sc.nextInt();//2
         System.out.println(topKFrequent(words,k));
     }
 }
